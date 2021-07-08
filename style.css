@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(pexels-harsha-vardhan-2940334.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #008ECC;
+}
+.navbar .logo{
+	width: 100px;
+	height: 55px;
+	padding: 15px 100px;
+	margin-left: 840px ;
+	
+}
+.navbar ul{
+	float: left;
+	margin-right: 20px;
+	/* margin-top: -90px; */
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family:sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: #033f57;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 60px;
+	font-family:"sans-serif";
+	text-transform: uppercase;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: black 3px 3px;
+	
+}
+.center .buttons{
+	margin: 35px 340px;
+	font-family:"sans-serif";
+} 
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	background: #033f57;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #033f57;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #234d5e;
+}
+
+
